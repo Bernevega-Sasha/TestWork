@@ -1,0 +1,209 @@
+2023-08-27T11:32:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "true_add_metabox" not found or invalid function name in D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-includes\plugin.php(517): WP_Hook->do_action()
+#2 D:\OpenServer\domains\local.abelohost.org\wp-admin\includes\meta-boxes.php(1715): do_action()
+#3 D:\OpenServer\domains\local.abelohost.org\wp-admin\edit-form-blocks.php(276): register_and_do_post_meta_boxes()
+#4 D:\OpenServer\domains\local.abelohost.org\wp-admin\post.php(187): require('D:\\OpenServer\\d...')
+#5 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php доступно 312
+
+2023-08-27T11:33:40+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "true_add_metabox" not found or invalid function name in D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-includes\plugin.php(517): WP_Hook->do_action()
+#2 D:\OpenServer\domains\local.abelohost.org\wp-admin\includes\meta-boxes.php(1715): do_action()
+#3 D:\OpenServer\domains\local.abelohost.org\wp-admin\edit-form-blocks.php(276): register_and_do_post_meta_boxes()
+#4 D:\OpenServer\domains\local.abelohost.org\wp-admin\post.php(187): require('D:\\OpenServer\\d...')
+#5 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php доступно 312
+
+2023-08-27T11:34:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "true_add_metabox" not found or invalid function name in D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-includes\plugin.php(517): WP_Hook->do_action()
+#2 D:\OpenServer\domains\local.abelohost.org\wp-admin\includes\meta-boxes.php(1715): do_action()
+#3 D:\OpenServer\domains\local.abelohost.org\wp-admin\edit-form-blocks.php(276): register_and_do_post_meta_boxes()
+#4 D:\OpenServer\domains\local.abelohost.org\wp-admin\post.php(187): require('D:\\OpenServer\\d...')
+#5 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php доступно 312
+
+2023-08-27T14:21:21+00:00 CRITICAL Cannot redeclare remove_product_metadata() (previously declared in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentythree-child\functions.php:138) у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentythree-child\functions.php доступно 29
+
+2023-08-27T14:21:58+00:00 CRITICAL Cannot redeclare remove_product_metadata() (previously declared in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentythree-child\functions.php:22) у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentythree-child\functions.php доступно 137
+
+2023-08-27T14:21:58+00:00 CRITICAL Cannot redeclare remove_product_metadata() (previously declared in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentythree-child\functions.php:22) у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentythree-child\functions.php доступно 137
+
+2023-08-27T14:32:12+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_upload_input() in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentythree-child\functions.php:24
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php(310): custom_product_fields()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 D:\OpenServer\domains\local.abelohost.org\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 D:\OpenServer\domains\local.abelohost.org\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action()
+#4 D:\OpenServer\domains\local.abelohost.org\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\local.abelohost.org\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#6 D:\OpenServer\domains\local.abelohost.org\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('D:\\OpenServer\\d...')
+#7 D:\OpenServer\domains\local.abelohost.org\wp-admin\includes\template.php(1443): WC_Meta_Box_Product_Data::output()
+#8 D:\OpenServer\domains\local.abelohost.org\wp-admin\edit-form-advanced.php(688): do_meta_boxes()
+#9 D:\OpenServer\domains\local.abelohost.org\wp-admin\post.php(206): require('D:\\OpenServer\\d...')
+#10 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentythree-child\functions.php доступно 24
+
+2023-08-27T18:48:51+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_directoryi() in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\page.php:13
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\template-loader.php(106): include()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\local.abelohost.org\index.php(17): require('D:\\OpenServer\\d...')
+#3 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\page.php доступно 13
+
+2023-08-27T18:51:00+00:00 CRITICAL syntax error, unexpected token "," у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\functions.php доступно 192
+
+2023-08-27T18:51:02+00:00 CRITICAL syntax error, unexpected token "," у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\functions.php доступно 192
+
+2023-08-27T19:44:44+00:00 CRITICAL Uncaught Error: Call to undefined function getPostViews() in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\page.php:34
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\template-loader.php(106): include()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\local.abelohost.org\index.php(17): require('D:\\OpenServer\\d...')
+#3 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\page.php доступно 34
+
+2023-08-27T19:45:55+00:00 CRITICAL Uncaught Error: Call to undefined function getPostViews() in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\functions.php:224
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php(310): loadmore_get_posts()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 D:\OpenServer\domains\local.abelohost.org\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 D:\OpenServer\domains\local.abelohost.org\wp-admin\admin-ajax.php(188): do_action()
+#4 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\functions.php доступно 224
+
+2023-08-27T19:46:08+00:00 CRITICAL Uncaught Error: Call to undefined function getPostViews() in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\functions.php:224
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php(310): loadmore_get_posts()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 D:\OpenServer\domains\local.abelohost.org\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 D:\OpenServer\domains\local.abelohost.org\wp-admin\admin-ajax.php(188): do_action()
+#4 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\functions.php доступно 224
+
+2023-08-27T19:46:12+00:00 CRITICAL Uncaught Error: Call to undefined function getPostViews() in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\functions.php:224
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php(310): loadmore_get_posts()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 D:\OpenServer\domains\local.abelohost.org\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 D:\OpenServer\domains\local.abelohost.org\wp-admin\admin-ajax.php(188): do_action()
+#4 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\functions.php доступно 224
+
+2023-08-27T19:46:56+00:00 CRITICAL Uncaught Error: Call to undefined function getPostViews() in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\functions.php:225
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php(310): loadmore_get_posts()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 D:\OpenServer\domains\local.abelohost.org\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 D:\OpenServer\domains\local.abelohost.org\wp-admin\admin-ajax.php(188): do_action()
+#4 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\functions.php доступно 225
+
+2023-08-27T19:51:33+00:00 CRITICAL syntax error, unexpected identifier "var_dump" у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\functions.php доступно 204
+
+2023-08-27T19:51:33+00:00 CRITICAL syntax error, unexpected identifier "var_dump" у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\functions.php доступно 204
+
+2023-08-27T19:54:43+00:00 CRITICAL syntax error, unexpected identifier "var_dump" у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\page.php доступно 16
+
+2023-08-27T20:56:50+00:00 CRITICAL Unclosed '{' on line 10 у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 63
+
+2023-08-27T21:09:57+00:00 CRITICAL syntax error, unexpected single-quoted string "post_type", expecting ")" у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 29
+
+2023-08-27T21:28:10+00:00 CRITICAL syntax error, unexpected identifier "basename" у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 18
+
+2023-08-27T21:35:56+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php:18
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\template-loader.php(106): include()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\local.abelohost.org\index.php(17): require('D:\\OpenServer\\d...')
+#3 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 18
+
+2023-08-27T22:14:36+00:00 CRITICAL Unmatched '}' у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 70
+
+2023-08-27T22:16:09+00:00 CRITICAL syntax error, unexpected identifier "var_dump" у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 40
+
+2023-08-27T22:20:47+00:00 CRITICAL syntax error, unexpected token ":" у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 35
+
+2023-08-27T22:36:44+00:00 CRITICAL Unclosed '{' on line 33 у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 61
+
+2023-08-27T22:37:07+00:00 CRITICAL Uncaught Error: Call to undefined function media_sideload_image() in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php:56
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\template-loader.php(106): include()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\local.abelohost.org\index.php(17): require('D:\\OpenServer\\d...')
+#3 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 56
+
+2023-08-27T22:38:05+00:00 CRITICAL Uncaught Error: Call to undefined function media_sideload_image() in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php:56
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\template-loader.php(106): include()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\local.abelohost.org\index.php(17): require('D:\\OpenServer\\d...')
+#3 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 56
+
+2023-08-27T22:42:00+00:00 CRITICAL Uncaught Error: Call to undefined function media_sideload_image() in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php:56
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\template-loader.php(106): include()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\local.abelohost.org\index.php(17): require('D:\\OpenServer\\d...')
+#3 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 56
+
+2023-08-27T22:42:45+00:00 CRITICAL Uncaught Error: Call to undefined function download_url() in D:\OpenServer\domains\local.abelohost.org\wp-admin\includes\media.php:1050
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php(57): media_sideload_image()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-includes\template-loader.php(106): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\local.abelohost.org\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#3 D:\OpenServer\domains\local.abelohost.org\index.php(17): require('D:\\OpenServer\\d...')
+#4 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-admin\includes\media.php доступно 1050
+
+2023-08-27T22:43:23+00:00 CRITICAL Uncaught Error: Call to undefined function download_url() in D:\OpenServer\domains\local.abelohost.org\wp-admin\includes\media.php:1050
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php(57): media_sideload_image()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-includes\template-loader.php(106): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\local.abelohost.org\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#3 D:\OpenServer\domains\local.abelohost.org\index.php(17): require('D:\\OpenServer\\d...')
+#4 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-admin\includes\media.php доступно 1050
+
+2023-08-27T22:59:24+00:00 CRITICAL Uncaught Error: Call to undefined function wp_generate_attachment_metadata() in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php:65
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\template-loader.php(106): include()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\local.abelohost.org\index.php(17): require('D:\\OpenServer\\d...')
+#3 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 65
+
+2023-08-27T22:59:58+00:00 CRITICAL Uncaught Error: Call to undefined function wp_generate_attachment_metadata() in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php:65
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\template-loader.php(106): include()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\local.abelohost.org\index.php(17): require('D:\\OpenServer\\d...')
+#3 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 65
+
+2023-08-27T23:02:29+00:00 CRITICAL Uncaught Error: Call to undefined function wp_generate_attachment_metadata() in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php:65
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\template-loader.php(106): include()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\local.abelohost.org\index.php(17): require('D:\\OpenServer\\d...')
+#3 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 65
+
+2023-08-27T23:04:21+00:00 CRITICAL Uncaught Error: Call to undefined function wp_generate_attachment_metadata() in D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php:65
+Stack trace:
+#0 D:\OpenServer\domains\local.abelohost.org\wp-includes\template-loader.php(106): include()
+#1 D:\OpenServer\domains\local.abelohost.org\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\local.abelohost.org\index.php(17): require('D:\\OpenServer\\d...')
+#3 {main}
+  thrown у D:\OpenServer\domains\local.abelohost.org\wp-content\themes\twentytwentyone-child\create-product.php доступно 65
+
